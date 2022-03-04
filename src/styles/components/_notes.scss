@@ -1,0 +1,60 @@
+
+//NoteScreen
+.notes__main-content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.notes_content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 20px;
+}
+
+.notes__title-input,
+.notes__textarea{
+    border: none;
+
+    &:focus{
+        outline: none;
+    }
+}
+
+.notes__title-input{
+    color: $dark-grey;
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.notes__textarea{
+    border: none;
+    color: $dark-grey;
+    font-size: 20px;
+    flex: 1 1 auto;      //ajusta su tamaño al espacio que tenga es decir se expande al tamaño disponible
+    resize: none;       //el textarea tiene por defecto la opcion de ajustar el tamaño en la ezquina inferior derecha en este caso none
+
+}
+
+.notes__image img{
+    box-shadow: 5px 5px $dark-grey;
+    height: 150px;
+}
+
+
+
+
+
+
+//NotesAppbar
+.notes__appbar{
+    display: flex;
+    align-items: center;
+    background-color: $primary;
+    color: white;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+
+}

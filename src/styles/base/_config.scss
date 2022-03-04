@@ -1,0 +1,38 @@
+
+//Archivo con las configuraciones globales que va a tener toda la aplicación
+
+*{
+    font-family: Roboto;
+    margin: 0px;
+}
+
+html,body{
+    height: 100vh;     //vh view Hight
+    width: 100vw;     //vh view Width
+}
+
+main {
+    width: 100%;
+}
+
+.mt-1{
+    margin-top: 5px;
+}
+
+.mt-5{
+    margin-top: 20px;
+}
+
+.mb-1{
+    margin-bottom: 5px;
+}
+
+.mb-5{
+    margin-bottom: 20px;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+
