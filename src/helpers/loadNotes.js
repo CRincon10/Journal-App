@@ -49,7 +49,7 @@ export const loadNotes = async(uid)=>{
 /*  funcion de ayuda para hacer peticion a la db de las notas guardadas en el firesbase.
 
 necesita el uid del usuario para cargar estas notas es por eso que esta funcion se llama en el primer momento donde se obtiene el uid 
-que es en el componente notesAction   que dispara una accion al <AppRouter/>
+que es en el componente notesAction   que dispara una accion  starLoadingNotes al <AppRouter/>
 
 db es el database proveido por firebase y que en este punto contiene las notas  del usuario ya guardadas
 collection()  funcion propia de firebase a la que hay que especificarle el path de lo que quiero que me retorne

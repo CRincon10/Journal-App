@@ -50,9 +50,6 @@ export const AppRouter = () => {
         )
     }
     
-
-    
-
     return (
 
         <BrowserRouter>

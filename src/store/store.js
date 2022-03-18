@@ -8,7 +8,7 @@ import {notesReducer} from '../reducers/notesReducer.js';
 
 
 
-const composeEnhancers = (typeof window !== 'undefined' && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__) || compose ;
+const composeEnhancers = (typeof window !== 'undefined' && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__) || compose ;      //habilita las herramientas de devtools navegador
 
 const reducers = combineReducers({
     auth: authReducer,                           //propiedad del reducers que es manejada por el authreducer  
